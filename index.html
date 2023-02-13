@@ -5,9 +5,47 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <!-- google font  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@300;400;500&display=swap"
+      rel="stylesheet"
+    />
+    <!-- tailwind css -->
     <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              yellow: "#FECC02",
+              black: "#131313",
+              grey: "#4E4E4E",
+            },
+            fontFamily: {
+              bebas: ["Bebas Neue", "cursive"],
+              montserrat: ["Montserrat", "sans-serif"],
+            },
+          },
+        },
+      };
+    </script>
   </head>
   <body>
-    <h1 class="text-3xl font-bold underline">Hello world!</h1>
+    <!-- NAV BAR start -->
+    <nav class="font-bebas">
+      <div
+        class="flex justify-between uppercase h-20 w-full max-w-7xl mx-auto items-center"
+      >
+        <h1 class="text-3xl">Movie Production</h1>
+        <ul class="flex gap-8 text-lg">
+          <li>ABout us</li>
+          <li>our movies</li>
+          <li>services</li>
+        </ul>
+      </div>
+    </nav>
+    <!-- NAVBAR End -->
   </body>
 </html>
