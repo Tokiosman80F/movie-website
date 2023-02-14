@@ -77,9 +77,15 @@
         <!-- box-1 -->
         <div class="lg:flex font-bebas gap-3">
           <div
-            class="sm:w-full lg:w-1/2 h-[500px] bg-[url('./images/camera-man.jpg')] bg-cover bg-center"
-          ></div>
-          <div class="sm:w-full sm:pt-2 lg:w-1/2 uppercase">
+            class="sm:w-full lg:w-1/2 h-[500px] bg-[url('./images/camera-man.jpg')] bg-cover bg-center flex justify-center items-end"
+          >
+            <h2
+              class="bg-white w-fit py-2 px-3 rounded-lg text-4xl -mb-6 shadow-lg"
+            >
+              23 YEARS of EXPERIENCE
+            </h2>
+          </div>
+          <div class="sm:w-full sm:pt-2 lg:w-1/2 uppercase mt-5">
             <h3 class="text-base">ABOUT US</h3>
             <h1 class="text-7xl">FIlming Experience</h1>
             <h1 class="text-7xl">Just Got better</h1>
@@ -128,5 +134,50 @@
       </div>
     </section>
     <!-- ABOUT US END -->
+
+    <!-- OUR MOVIES START -->
+    <section class="bg-grey py-10">
+      <!-- for width setting -->
+      <div class="max-w-7xl w-full mx-auto px-5">
+        <div class="font-bebas text-white uppercase">
+          <h3>OUR MOVIE</h3>
+          <!-- div satrt -->
+          <div class="md:flex justify-between items-center">
+            <h1 class="text-7xl">Movie Collection</h1>
+            <button
+              class="border-2 p-2 text-lg hover:bg-yellow hover:border-yellow hover:text-black transition-all"
+            >
+              See More Movies
+            </button>
+          </div>
+          <!-- div end -->
+        </div>
+
+        <!-- movies -->
+        <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-4 pt-10">
+          <div class="border-2 border-white h-[500px] p-5">
+            <div
+              class="bg-[url('./images/inception.jpg')] h-full w-full bg-cover bg-center"
+            ></div>
+          </div>
+          <div class="border-2 border-white h-[500px] p-5">
+            <div
+              class="bg-[url('./images/tenet.jpg')] h-full w-full bg-cover"
+            ></div>
+          </div>
+          <div class="border-2 border-white h-[500px] p-5">
+            <div
+              class="bg-[url('./images/interstellar.jpg')] h-full w-full bg-cover"
+            ></div>
+          </div>
+          <div class="border-2 border-white h-[500px] p-5">
+            <div
+              class="bg-[url('./images/fractured.jpg')] h-full w-full bg-cover"
+            ></div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- OUR MOVIES END -->
   </body>
 </html>
